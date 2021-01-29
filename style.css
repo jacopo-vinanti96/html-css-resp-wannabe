@@ -70,8 +70,35 @@
   width: 33%;
 }
 
+@media screen and (max-width: 677px) {
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 50%;
+  }
+
+  #steps .row>.right {
+    float: none;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
+  }
+}
+
 #steps {
   text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  #steps .row img {
+    width: calc(200 / 992 * 300% );
+  }
 }
 
 /* BLOCCO PERCHE */
@@ -117,6 +144,7 @@ img {
 @media screen and (max-width: 992px) {
   img {
     height: auto;
+    max-height: 200px;
   }
 }
 
