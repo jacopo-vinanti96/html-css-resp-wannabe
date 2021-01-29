@@ -16,6 +16,12 @@
   }
 }
 
+@media screen and (max-width: 677px) {
+  .row {
+    margin-top: 50px;
+  }
+}
+
 /* BLOCCO LEZIONI */
 
 #lezioni .row>.left,
@@ -35,6 +41,11 @@
   }
 }
 
+@media screen and (max-width: 420px) {
+  #lezioni .row {
+    margin-top: 20px;
+  }
+}
 
 #lezioni .row img {
   /* per centrare orizzontalmente */
@@ -139,6 +150,23 @@
   margin-top: 80px;
 }
 
+/* Responsive */
+@media screen and (max-width: 677px) {
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 40px;
+  }
+}
+
 #why .row img {
   background-color: #428bca;
   border-radius: 50%;
@@ -158,6 +186,14 @@
   width: calc(200 / 677 * 100% );
   padding: calc(30 / 200 *(200 / 677 * 100% ));
   max-width: 133px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #why .row img {
+  width: calc(200 / 420 * 100% );
+  padding: calc(30 / 200 *(200 / 420 * 100% ));
+  max-width: 120px;
   }
 }
 /* COMMON */
