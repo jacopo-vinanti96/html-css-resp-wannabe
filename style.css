@@ -7,7 +7,6 @@
 
 /* Responsive */
 @media screen and (max-width: 992px) {
-
   .conainer {
   width: 100%;
   }
@@ -122,6 +121,12 @@
     margin-bottom: 20px;
   }
 }
+
+@media screen and (max-width: 420px) {
+  #steps .row img {
+      max-width: 133px;
+  }
+}
 /* BLOCCO PERCHE */
 #why {
   text-align: center;
@@ -150,8 +155,9 @@
 
 @media screen and (max-width: 677px) {
   #why .row img {
-  width: calc(200 / 992 * 200% );
-  padding: calc(30 / 200 *(200 / 992 * 200% ));
+  width: calc(200 / 677 * 100% );
+  padding: calc(30 / 200 *(200 / 677 * 100% ));
+  max-width: 133px;
   }
 }
 /* COMMON */
